@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+  background-color: rgb(214, 214, 214); /* بيج فاتح جدًا */
+  font-size: large;
+  color: #4a3f35; /* بني غامق للنصوص */
+}
+
+header {
+  font-size: x-large;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+}
+
+#firstNav {
+  background-image: url("Resources/coffee_image.png");
+  background-color: #8b5e3c; /* بني فاتح */
+  width: 100%;
+  height: 11rem;
+  background-size: cover;
+  color: #ffecd0; /* أبيض دافئ */
+}
+
+#navBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+  align-items: center;
+}
+
+#navBarList {
+  display: flex;
+  padding: 5px;
+  list-style: none;
+  gap: 2rem;
+}
+
+#navBar a, #footerDown a {
+  text-decoration: none;
+  color: wheat; /* بيج كريمي */
+}
+
+#navBar a:hover, li:hover, #footerDown a:hover {
+  color: #ffae72; /* برتقالي محروق عند التمرير */
+  transform: scale(1.1);
+}
+
+#navBar #rightNav {
+  display: flex;
+  gap: 2rem;
+}
+
+#navBarList #logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  padding-top: 1%;
+  padding-left: 1.5%;
+  margin-right: 19%;
+  color: wheat;
+}
+
+#firstNav #innerFirstNav {
+  position: absolute;
+  left: 10%;
+  top: 36%;
+  font-size: x-large;
+  width: 527px;
+  height: 490px;
+}
+
+#firstNav #innerFirstNav h1 {
+  font-size: 80px;
+  margin: 0px;
+}
+
+section#cart div.item {
+  height: 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f1ea; /* بيج فاتح */
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #4a3f35;
+}
+
+section#cart div.item img {
+  width: 150px;
+  height: inherit;
+  border-radius: 1rem;
+}
+
+section#cart div.item div.inputDiv {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+/* section#cart div.item div.inputDiv input {
+  width: 10%;
+} */
+section#cart div.item input[type="number"]{
+  width: 2rem;
+}
+section#cart div.item input[type="button"], #byNow input {
+  background-color: #8b5e3c; /* بني فاتح */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+}
+
+section#cart div.item input[type="button"]:hover, #byNow input:hover {
+  background-color: #a76d4e; /* بني محروق */
+}
+
+span.trash {
+  color: red;
+}
+
+#footerDown {
+  width: 100%;
+  height: 400px;
+  background-color: #4a3f35; /* بني غامق */
+  opacity: 1;
+  color: #fdf7f1; /* بيج فاتح جدًا */
+}
+
+#footerDown #footerImg {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  font-size: large;
+  opacity: 0.3;
+}
+
+#footerDown #felxFoot {
+  position: relative;
+  top: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+footer #footerDown #link a {
+  text-decoration: none;
+}
+
+#arrowIcon {
+  font-size: 60px;
+  display: flex;
+  justify-content: end;
+}
+
+#arrowIcon a {
+  color: white;
+}
+
+#byNow {
+  display: flex;
+  justify-content: center;
+}
+
+#byNow input {
+  margin-bottom: 2rem;
+  width: 14rem;
+  height: 3rem;
+  background-color: #8b5e3c; /* بني فاتح */
+  margin-top: 1rem;
+  border-radius: 1rem;
+  font-size: larger;
+  color: white;
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+      <div id="firstNav">
+          <nav id="navBar">
+            <div id="logo" href="Home.html">
+              <a href="index.html"><img width="130px" src="Resources/logo.png" alt=""></a>
+            </div>
+
+            <ul id="navBarList">
+              <li id="home" class="center" href="Home.html">
+                <a href="#firstNav">Home</a>
+              </li>
+              <li id="menu" class="center" href="#">
+                <a href="#innerThirdMainDiv">Menu</a>
+              </li>
+              <li id="contact" class="center" href="#">
+                <a href="#contactFoot">Contact Us</a>
+              </li>
+              <li id="lastCenterListNav" class="center" href="#">
+                  <a href="#innerFirstNav">
+                    About Us
+                  </a>
+              </li>
+            </ul>
+            <div id="rightNav">
+              <a href="cart.html">
+                  <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <a id="signOut" href="login.html">log Out</a>
+
+              <a href="#" id="userNameStorage" style="color: rgb(243, 166, 11);"></a>
+            </div>
+          </nav>
+      </div>      
+  </header>
+<br><br>
+    <main>
+      <section id="cart">
+
+       
+      </section>
+      <section id="byNow">
+       <a href="order.html"> <input type="button" value="By Now" ></a>
+      </section>
+    </main>
+
+      <footer>
+        <!-- ================== down =================== -->
+        <div id="footerDown">
+          <img
+            id="footerImg"
+            src="Resources/fotter_image.png"
+            width="100%"
+            height="400px"
+            alt=""
+          />
+          <div id="felxFoot">
+            <div id="beanFoot" style="width: 25%">
+              <h2>Bean Scene</h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+              <div id="link">
+                <a href="#">
+                  <img
+                    src="Resources/Group 50.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="Resources/Group 51.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="Resources/Group 52.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                </a>
+                <a href="#">
+                  <img
+                    src="Resources/Group 53.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div id="aboutFoot">
+              <h2>About</h2>
+              <p>Menu</p>
+              <p>Features</p>
+              <p>News &amp; Blogs</p>
+              <p>Help &amp; Supports</p>
+            </div>
+            <div id="companyFoot">
+              <h2>Company</h2>
+              <p>How we work</p>
+              <p>Terms of service</p>
+              <p>Pricing</p>
+              <p>FAQ</p>
+            </div>
+            <div id="contactFoot" style="width: 25%">
+              <h2>Contact Us</h2>
+              <p>
+                Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+                Bangalore-560016
+              </p>
+              <p>+1 202-918-2132</p>
+              <p>beanscene@mail.com</p>
+              <span id="arrowIcon"><a href="#logo"><i class="fa-solid fa-arrow-up"></i></a> </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="cartjs.js"></script>
+  </body>
+</html>

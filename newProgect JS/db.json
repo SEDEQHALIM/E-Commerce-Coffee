@@ -1,0 +1,187 @@
+{
+  "products": [
+    {
+      "ID": 1,
+      "productname": "Twinings",
+      "price": 29.99,
+      "image": "./Images/tea1.PNG",
+      "offer": "15% off",
+      "category": "Tea",
+      "type": "Green Tea",
+      "description": "A delicate and refreshing green tea blend from Twinings, offering a mild, smooth flavor with numerous health benefits."
+    },
+    {
+      "ID": 2,
+      "productname": "Dunkin' Donuts",
+      "price": 999.99,
+      "image": "./Images/coffe2.PNG",
+      "offer": "15% off",
+      "category": "Coffee",
+      "type": "Latte",
+      "description": "A smooth and creamy latte crafted with freshly brewed espresso and steamed milk, delivering a perfect balance of rich flavor and sweetness."
+    },
+    {
+      "ID": 3,
+      "productname": "Nescafe Gold",
+      "price": 249.99,
+      "image": "./Images/nescafe2.PNG",
+      "offer": "Free Mop Attachment",
+      "category": "Nescafe",
+      "type": "Nescafe Gold",
+      "description": "A premium instant coffee blend from Nescafe, made with high-quality beans for a rich, aromatic coffee experience."
+    },
+    {
+      "ID": 4,
+      "productname": "Tim Hortons",
+      "price": 199.99,
+      "image": "./Images/coffe4.PNG",
+      "offer": "20% off",
+      "category": "Coffee",
+      "type": "Cappuccino",
+      "description": "A delicious cappuccino with a velvety texture, made from perfectly steamed milk and espresso, topped with a light layer of foam."
+    },
+    {
+      "ID": 5,
+      "productname": "Costa Coffee",
+      "price": 59.99,
+      "image": "./Images/coffe5.PNG",
+      "offer": "Free Shipping",
+      "category": "Coffee",
+      "type": "Espresso",
+      "description": "A smooth and flavorful espresso with a robust taste, made with the finest Costa Coffee beans for an energizing pick-me-up."
+    },
+    {
+      "ID": 6,
+      "productname": "Lavazza",
+      "price": 399.99,
+      "image": "./Images/coffe6.PNG",
+      "offer": "Buy 2 Get 1 Free",
+      "category": "Coffee",
+      "type": "Latte",
+      "description": "A premium latte made with rich espresso and steamed milk, offering a balanced flavor that appeals to latte lovers everywhere."
+    },
+   
+    {
+      "ID": 7,
+      "productname": "Starbucks",
+      "price": 499.99,
+      "image": "./Images/coffe1.PNG",
+      "offer": "10% off",
+      "category": "Coffee",
+      "type": "Espresso",
+      "description": "A rich and bold espresso blend made with the finest Arabica beans, perfect for coffee enthusiasts who enjoy a strong, full-bodied flavor."
+    },
+    {
+      "ID": 8,
+      "productname": "Lipton",
+      "price": 799.99,
+      "image": "./Images/tea2.PNG",
+      "offer": "25% off",
+      "category": "Tea",
+      "type": "Black Tea",
+      "description": "A strong and full-bodied black tea from Lipton, perfect for those who enjoy a rich, bold cup of tea any time of day."
+    },
+    {
+      "ID": 9,
+      "productname": "Tazo",
+      "price": 499.99,
+      "image": "./Images/tea3.PNG",
+      "offer": "Free Game with Purchase",
+      "category": "Tea",
+      "type": "White Tea",
+      "description": "A light and fragrant white tea with subtle floral notes, ideal for those seeking a delicate yet refreshing tea experience."
+    },
+    {
+      "ID": 10,
+      "productname": "Harney & Sons",
+      "price": 349.99,
+      "image": "./Images/tea4.PNG",
+      "offer": "10% off",
+      "category": "Tea",
+      "type": "Red Tea",
+      "description": "A rich and naturally sweet red tea from Harney & Sons, made from rooibos leaves for a caffeine-free and flavorful tea experience."
+    },
+    {
+      "ID": 11,
+      "productname": "Teavana",
+      "price": 399.99,
+      "image": "./Images/tea5.PNG",
+      "offer": "Free Helmet with Purchase",
+      "category": "Tea",
+      "type": "Green Tea",
+      "description": "A premium green tea blend from Teavana, packed with antioxidants and a refreshing taste that energizes and revitalizes."
+    },
+    {
+      "ID": 12,
+      "productname": "Bigelow",
+      "price": 79.99,
+      "image": "./Images/tea6.PNG",
+      "offer": "20% off",
+      "category": "Tea",
+      "type": "Black Tea",
+      "description": "A robust and flavorful black tea from Bigelow, providing a bold and rich taste that's perfect for an energizing morning brew."
+    },
+    {
+      "ID": 13,
+      "productname": "Nescafe Classic",
+      "price": 119.99,
+      "image": "./Images/nescafe1.PNG",
+      "offer": "10% off",
+      "category": "Nescafe",
+      "type": "Nescafe Classic",
+      "description": "A classic instant coffee from Nescafe, offering a quick and satisfying coffee experience with a rich and well-balanced flavor."
+    },
+   
+    {
+      "ID": 14,
+      "productname": "Peet's Coffee",
+      "price": 89.99,
+      "image": "./Images/coffe3.PNG",
+      "offer": "Buy 1 Get 1 Free",
+      "category": "Coffee",
+      "type": "Americano",
+      "description": "A bold Americano made from freshly brewed espresso diluted with hot water for a smooth and strong coffee experience."
+    },
+    {
+      "ID": 15,
+      "productname": "Nescafe Azera",
+      "price": 29.99,
+      "image": "./Images/nescafe3.PNG",
+      "offer": "Buy 1 Get 1 Free",
+      "category": "Nescafe",
+      "type": "Nescafe Azera",
+      "description": "An instant coffee that delivers a barista-quality brew in an instant, perfect for those who enjoy a rich and smooth coffee experience."
+    },
+    {
+      "ID": 16,
+      "productname": "Nescafe Espresso",
+      "price": 19.99,
+      "image": "./Images/nescafe4.PNG",
+      "offer": "15% off",
+      "category": "Nescafe",
+      "type": "Nescafe Espresso",
+      "description": "A bold and intense espresso coffee from Nescafe, perfect for those who prefer a strong, flavorful coffee shot."
+    },
+    {
+      "ID": 17,
+      "productname": "Nescafe Dolce Gusto",
+      "price": 59.99,
+      "image": "./Images/nescafe5.PNG",
+      "offer": "Free Replacement Head",
+      "category": "Nescafe",
+      "type": "Nescafe Dolce Gusto",
+      "description": "A convenient coffee capsule system that delivers a wide range of flavors, from rich espressos to creamy lattes, with a smooth and easy brewing process."
+    },
+    {
+      "ID": 18,
+      "productname": "Nescafe Decaf",
+      "price": 14.99,
+      "image": "./Images/nescafe6.PNG",
+      "offer": "Buy 2 Get 1 Free",
+      "category": "Nescafe",
+      "type": "Nescafe Decaf",
+      "description": "A decaffeinated instant coffee from Nescafe, offering all the rich flavor of a classic coffee without the caffeine content."
+    }
+
+  ]
+  }

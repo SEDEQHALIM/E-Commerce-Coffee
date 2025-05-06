@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Message</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      header {
+        font-size: x-large;
+      }
+      #firstNav {
+        background-image: url("Resources/coffee_image.png");
+        width: 100%;
+        height: 11rem;
+        background-size: cover;
+        color: #ffecd0;
+      }
+      #navBar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 3rem 0;
+        align-items: center;
+      }
+      #navBarList {
+        display: flex;
+        padding: 5px;
+        list-style: none;
+        gap: 2rem;
+      }
+      #navBar a {
+        text-decoration-line: none;
+        color: wheat;
+      }
+      a:hover {
+        transform: scale(1.2);
+      }
+      li:hover {
+        transform: scale(1.2);
+      }
+      #navBar #rightNav {
+        display: flex;
+        gap: 2rem;
+      }
+      #navBarList #logo {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 30px;
+        padding-top: 1%;
+        padding-left: 1.5%;
+        margin-right: 19%;
+        color: wheat;
+      }
+      /*-----------------------*/
+      #firstNav #innerFirstNav {
+        position: absolute;
+        left: 10%;
+        top: 36%;
+        font-size: x-large;
+        width: 527px;
+        height: 490px;
+        /* font-size: 30px; */
+      }
+      #firstNav #innerFirstNav h1 {
+        font-size: 80px;
+        margin: 0px;
+      }
+
+      .containermessage {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        font-family: Arial, sans-serif;
+      }
+
+      .message {
+        text-align: center;
+        padding: 20px;
+        border: 2px solid #4caf50;
+        background-color: #f0f8ff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      /* Styling the text */
+      .message p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        margin: auto;
+      }
+      /* ----------down footer------------- */
+      #footerDown {
+        width: 100%;
+        height: 400px;
+        background-color: #442808;
+        opacity: 1;
+        color: white;
+        font-size: larger;
+      }
+      #footerDown #footerImg {
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        font-size: large;
+        opacity: 0.3;
+      }
+      #footerDown #felxFoot {
+        position: relative;
+        top: 14%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+      }
+      footer #footerDown #link a {
+        text-decoration-line: none;
+      }
+      #arrowIcon {
+        font-size: 60px;
+        display: flex;
+        justify-content: end;
+      }
+      #arrowIcon a {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="firstNav">
+        <nav id="navBar">
+          <div id="logo" href="Home.html">
+            <a href="index.html"
+              ><img width="130px" src="Resources/logo.png" alt=""
+            /></a>
+          </div>
+
+          <ul id="navBarList">
+            <li id="home" class="center" href="Home.html">
+              <a href="#firstNav">Home</a>
+            </li>
+            <li id="menu" class="center" href="#">
+              <a href="#innerThirdMainDiv">Menu</a>
+            </li>
+            <li id="contact" class="center" href="#">
+              <a href="#contactFoot">Contact Us</a>
+            </li>
+            <li id="lastCenterListNav" class="center" href="#">
+              <a href="#innerFirstNav"> About Us </a>
+            </li>
+          </ul>
+          <div id="rightNav">
+            <a href="cart.html">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a id="signOut" href="login.html">log Out</a>
+
+            <a href="#" id="userNameStorage" style="color: rgb(243, 166, 11);"></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="containermessage">
+        <div class="message">
+          <p id="Thankname">Thank you </p><br>
+          <p>Your purchase has been successfully completed.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- <footer>
+      
+      <div id="footerDown">
+        <img
+          id="footerImg"
+          src="Resources/fotter_image.png"
+          width="100%"
+          height="400px"
+          alt=""
+        />
+        <div id="felxFoot">
+          <div id="beanFoot" style="width: 25%">
+            <h2>Bean Scene</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div id="link">
+              <a href="#">
+                <img
+                  src="Resources/Group 50.png"
+                  width="30px"
+                  height="auto"
+                  alt=""
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="Resources/Group 51.png"
+                  width="30px"
+                  height="auto"
+                  alt=""
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="Resources/Group 52.png"
+                  width="30px"
+                  height="auto"
+                  alt=""
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="Resources/Group 53.png"
+                  width="30px"
+                  height="auto"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+          <div id="aboutFoot">
+            <h2>About</h2>
+            <p>Menu</p>
+            <p>Features</p>
+            <p>News &amp; Blogs</p>
+            <p>Help &amp; Supports</p>
+          </div>
+          <div id="companyFoot">
+            <h2>Company</h2>
+            <p>How we work</p>
+            <p>Terms of service</p>
+            <p>Pricing</p>
+            <p>FAQ</p>
+          </div>
+          <div id="contactFoot" style="width: 25%">
+            <h2>Contact Us</h2>
+            <p>
+              Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+              Bangalore-560016
+            </p>
+            <p>+1 202-918-2132</p>
+            <p>beanscene@mail.com</p>
+            <br />
+            <span id="arrowIcon"
+              ><a href="#logo"><i class="fa-solid fa-arrow-up"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    <script>
+      
+    var userNameStorage= window.localStorage.getItem("username"); 
+    document.getElementById("userNameStorage").textContent=`Hello ${userNameStorage}`;
+
+    document.getElementById("Thankname").textContent=`Thank you ${userNameStorage}`;
+
+    </script>
+  </body>
+</html>

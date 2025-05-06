@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home</title>
+    <link rel="stylesheet" href="StylePr.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <header>
+        <div id="firstNav">
+            <nav id="navBar">
+              <div id="logo" href="Home.html">
+                <a href="index.html"><img width="130px" src="Resources/logo.png" alt=""></a>
+              </div>
+  
+              <ul id="navBarList">
+                <li id="home" class="center" href="Home.html">
+                  <a href="#firstNav">Home</a>
+                </li>
+                <li id="menu" class="center" href="#">
+                  <a href="#innerThirdMainDiv">Menu</a>
+                </li>
+                <li id="contact" class="center" href="#">
+                  <a href="#contactFoot">Contact Us</a>
+                </li>
+                <li id="lastCenterListNav" class="center" href="#">
+                    <a href="#innerFirstNav">
+                      About Us
+                    </a>
+                </li>
+              </ul>
+              <div id="rightNav">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a id="signOut" href="login.html">log Out</a>
+
+                <a href="#" id="userNameStorage" style="color: rgb(243, 166, 11);"></a>
+              </div>
+            </nav>
+            <div id="innerFirstNav">
+              <p>We’ve got your morning covered with</p>
+              <h1>Coffee</h1>
+              <span style="display: inline-block; width: 300px">
+                <p>
+                  It is best to start your day with a cup of coffee. Discover the best
+                  flavours coffee you will ever have. We provide the best for our
+                  customers.
+                </p>
+              </span>
+            </div>
+        </div>      
+    </header>
+
+<!-----------   first main div   -------------->
+    
+    <main>
+          <div id="secondMainDiv">
+            <div id="leftSMD">
+              <h2>Discover the best coffee</h2>
+              <p>
+                  Bean Scene is a coffee shop that provides you with quality coffee that
+                  helps boost your productivity and helps build your mood. Having a cup
+                  of coffee is good, but having a cup of real coffee is greater. There
+                  is no doubt that you will enjoy this coffee more than others you have
+                  ever tasted.
+              </p>
+            </div>
+            <div id="rightSMD">
+            <img
+                src="Resources/stylized-cup-coffee-out-coffee-beans-flat-lay 1.png"
+            />
+            </div>
+            <p style="clear: both"></p>
+        </div>
+<!-----------  first main div  --------------->
+
+        <div style="margin-top:30px;text-align: center;margin-bottom: 30px; ">
+          <button onclick="fetchAll()"> All</button>
+          <button onclick="fetchCoffee()">Coffee</button>
+          <button onclick="fetchTea()">Tea</button>
+          <button onclick="fetchNescafe()">Nescafe</button>
+        </div>
+        
+        <!-- our proudects -->
+        <div id="OurProduct">
+            <h2>Our Product</h2>
+            <br>
+            <div class="itemOurProduct">
+                <div class="item">
+                    <img src="Resources/Rectangle 7.png" alt="" />
+                    <h3>Cappuccino</h3>
+                    <h6>$8.50</h6>
+                    <div class="viewAndAddCart">
+                      <a href="">
+                        <i class="fa-solid fa-plus"></i>
+                      </a>
+                        <a href="./showOneDataDetailsUpdate.html?id=6">
+                          <i class="fa-solid fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+          <!-- ++++++-second main div +++++++++- -->
+   
+        <br /><br />
+        <!-- forth main div -->
+        <div id="fourthMainDiv">
+            <h3>Why are we different?</h3>
+            <p>We don’t just make your coffee, we make your day!</p>
+    
+            <div id="innerfourthMainDiv">
+            <div id="first">
+                <img src="Resources/coffee-beans 1.png" alt="" />
+                <h3>Supreme Beans</h3>
+                <p>Beans that provides great taste</p>
+            </div>
+            <div id="second">
+                <img src="Resources/badge 1.png" alt="" />
+                <h3>High Quality</h3>
+                <p>We provide the highest quality</p>
+            </div>
+            <div id="third">
+                <img src="Resources/coffee-cup 1.png" alt="" />
+                <h3>Extraordinary</h3>
+                <p>Coffee like you have never tasted</p>
+            </div>
+            <div id="forth">
+                <img src="Resources/best-price 1.png" alt="" />
+                <h3>Affordable Price</h3>
+                <p>Our Coffee prices are easy to afford</p>
+            </div>
+            </div>
+
+        </div>
+        
+    </main>
+
+    <footer>
+<!-- ================== down =================== -->      
+        <div id="footerDown">
+            <img
+              id="footerImg"
+                src="Resources/fotter_image.png"
+              width="100%"
+              height="400px"
+              alt=""
+            />
+            <div id="felxFoot">
+              <div id="beanFoot" style="width: 25%">
+                <h2>Bean Scene</h2>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy text
+                  ever since the 1500s, when an unknown printer took a galley of type
+                  and scrambled it to make a type specimen book.
+                </p>
+                <div id="link">
+                  <a href="#">
+                    <img
+                    src="Resources/Group 50.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                  </a>
+                  <a href="#">
+                    <img
+                    src="Resources/Group 51.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                  </a>
+                  <a href="#">
+                    <img
+                    src="Resources/Group 52.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                  </a>
+                  <a href="#">
+                    <img
+                    src="Resources/Group 53.png"
+                    width="30px"
+                    height="auto"
+                    alt=""
+                  />
+                  </a>
+                  
+                </div>
+              </div>
+              <div id="aboutFoot">
+                <h2>About</h2>
+                <p>Menu</p>
+                <p>Features</p>
+                <p>News &amp; Blogs</p>
+                <p>Help &amp; Supports</p>
+              </div>
+              <div id="companyFoot">
+                <h2>Company</h2>
+                <p>How we work</p>
+                <p>Terms of service</p>
+                <p>Pricing</p>
+                <p>FAQ</p>
+              </div>
+              <div id="contactFoot" style="width: 25%">
+                <h2>Contact Us</h2>
+                <p>
+                  Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016
+                </p>
+                <p>+1 202-918-2132</p>
+                <p>beanscene@mail.com</p>
+                <br>
+                <span id="arrowIcon"><a href="#logo"><i class="fa-solid fa-arrow-up"></i></a> </span>
+              </div>
+            </div>
+        </div>      
+    </footer>
+    <!-- <script>
+      var siqnOut = document.getElementById("signOut");
+      siqnOut.addEventListener("click",function(){
+        var confrm = confirm("do you wannt to siqn out from wep site","message")
+      })
+      onclick
+    </script> -->
+
+    <script src="indexjs.js"></script>
+  </body>
+</html>

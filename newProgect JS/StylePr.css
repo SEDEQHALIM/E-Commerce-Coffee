@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size:x-large;
+}
+main{
+    max-width: 1100px;
+    margin: auto;
+}
+/* first main div */
+#firstNav{
+    background-image: url("Resources/coffee_image.png");
+    width: 100%;
+    height:47rem;
+    background-size: cover;
+    color: #ffecd0;
+}
+#navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+    align-items: center;
+}
+#navBarList{
+    display: flex;
+    padding: 5px;
+    list-style: none;
+    gap: 2rem;
+}
+#navBar  a{
+    text-decoration-line: none;
+    color: wheat;
+} 
+a:hover{
+    transform:scale(1.2) ;
+}
+li:hover{
+    transform:scale(1.2) ;
+}
+#navBar #rightNav{
+    display: flex;
+    gap: 2rem
+}
+#navBarList #logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-left: 1.5%;
+    margin-right: 19%;
+    color: wheat;
+}
+/*-----------------------*/
+#firstNav #innerFirstNav{
+    position: absolute;
+    left: 10%;
+    top: 36%;
+    font-size: x-large;
+    width: 527px;
+    height: 490px;
+    /* font-size: 30px; */
+}
+#firstNav #innerFirstNav h1{
+    font-size: 80px;
+    margin: 0px
+}
+
+/* second main div */
+
+#secondMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* font-size: xx-large; */
+}
+#secondMainDiv #leftSMD{
+    width: 42%;
+    height: 17rem;
+    text-align: start;
+}
+#secondMainDiv #leftSMD h2{
+    color: #6c3b27;
+}
+#secondMainDiv #leftSMD input{
+    text-align: left;
+    background-color: #F9C06A;
+    border-radius: 30px;
+    padding: 10px;
+    /* font-size: 20px; */
+}
+
+#secondMainDiv #rightSMD{
+    width: 25rem;;
+    
+}
+/* our product  */
+#OurProduct{
+    margin: auto;
+}
+#OurProduct h2{
+    text-align: center;
+    color: #8cb300 ;
+}
+#OurProduct .itemOurProduct{
+    display: flex;
+    gap: 1rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#OurProduct .itemOurProduct .item{
+    width: 30%;
+}
+#OurProduct .itemOurProduct .item img{
+    width: 100%;
+    height: 15rem;
+    border-radius: 15px 60px 15px 60px ;
+}
+.itemOurProduct .viewAndAddCart{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.viewAndAddCart a{
+    border:2px solid #F9C06A;
+    border-radius: .75rem;
+    padding: 5px;
+}
+/* forth main div */
+#fourthMainDiv{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 60%;
+    /* font-size: x-large ; */
+    /* margin-bottom: 30px;
+    margin-top: -5%; */
+}
+#fourthMainDiv h3{
+    color: #6c3b27;
+}
+#innerfourthMainDiv{
+    display: flex;
+    justify-content: space-between;   
+    margin-top:20px;
+    margin-bottom:20px ; 
+    flex-wrap: wrap;
+}
+#innerfourthMainDiv div{
+    /* font-size: large; */
+    width: 40%;
+    background-color: rgb(255, 241, 223);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#fourthMainDiv img,h3,p{
+    margin: 1%
+}
+#fourthMainDiv input[type="button"]{
+    background-color: #F9C06A;
+    border-radius: 1.5em;
+    padding: 10px;
+    font-weight: bold; 
+    /* font-size: large;  */
+    margin: auto;
+    width: 10em;
+}
+
+ /*  Footer-----------------------------Footer  */ 
+/* ----------down footer------------- */
+#footerDown {
+    width: 100%;
+    height: 400px;
+    background-color: #442808;
+    opacity: 1;
+    color: white;
+}
+#footerDown #footerImg{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    font-size: large;
+    opacity: .3;
+}
+#footerDown #felxFoot{
+    position: relative;
+    top: 18%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+footer #footerDown #link a{
+    text-decoration-line: none;
+}
+#arrowIcon{
+    font-size:60px;
+    display: flex;
+    justify-content: end;
+}
+#arrowIcon a{
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color:  #373733;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #8cb300 ;
+    transform: translateY(-2px);  /* Slight hover lift effect */
+}
+
+
+
+
+
